@@ -2,8 +2,13 @@
 
 :root {
   --css-yellow: #e3b748;
+
   --css-black-primary: #111111;
   --css-black-secondary: #1d1d1d;
+
+  --css-grey-primary: #2e2e2e;
+  --css-grey-secondary: rgba(255, 255, 255, 0.4);
+
   --css-white: #ffffff;
 }
 

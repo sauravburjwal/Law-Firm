@@ -1,0 +1,40 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 359px;
+  height: 377px;
+  border-radius: 14px;
+  padding: 2rem;
+  gap: 1rem;
+  color: var(--css-white);
+  border: 1.4px solid var(--css-grey-primary);
+  transition: all ease-in 0.3s;
+}
+
+.card:hover {
+  background-color: var(--css-grey-primary);
+}
+
+.card p {
+  color: var(--css-grey-secondary);
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.card button {
+  width: 121px;
+  height: 43px;
+  border-radius: 23.5px;
+  background-color: var(--css-yellow);
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all ease-in 0.3s;
+}
+
+.card button:hover {
+  font-size: 16px;
+}

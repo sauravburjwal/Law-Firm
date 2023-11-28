@@ -39,7 +39,7 @@
 }
 
 .hero-section-text-container p {
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--css-grey-secondary);
   font-size: 18px;
   font-weight: 500;
   line-height: 29px;
@@ -61,7 +61,7 @@
 
 .mail-icon {
   position: absolute;
-  color: rgba(255, 255, 255, 0.4);
+  color: var(--css-grey-secondary);
   left: 8%;
 }
 
