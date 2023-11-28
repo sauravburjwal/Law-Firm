@@ -1,0 +1,19 @@
+.contact-btn {
+  border: 2px var(--css-white) solid;
+  background-color: transparent;
+  color: var(--css-white);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: center;
+  width: 172px;
+  height: 47px;
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+}
+
+.contact-btn:hover {
+  transform: scale(1.1);
+  color: var(--css-yellow);
+  border: 2px var(--css-yellow) solid;
+}

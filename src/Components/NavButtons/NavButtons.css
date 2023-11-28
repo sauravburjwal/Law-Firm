@@ -1,0 +1,25 @@
+.nav-btn-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.nav-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.nav-btn a {
+  text-decoration: none;
+  color: var(--css-white);
+  transition: all ease-in 0.3s;
+}
+.nav-btn a:hover {
+  color: var(--css-yellow);
+}

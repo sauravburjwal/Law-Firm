@@ -1,0 +1,17 @@
+.social-media-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  gap: 1rem;
+}
+
+.social-media-icon-container a {
+  color: var(--css-yellow);
+  transition: all ease-in 0.3s;
+  cursor: pointer;
+}
+
+.social-media-icon-container a:hover {
+  transform: scale(1.2);
+}

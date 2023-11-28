@@ -1,0 +1,25 @@
+footer {
+  height: 40vh;
+  background-color: var(--css-black-primary);
+}
+
+.footer-primary-container {
+  padding: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 8rem;
+}
+
+.footer-secondary-container {
+  color: var(--css-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 14px;
+}
+
+.footer-secondary-container p {
+  cursor: context-menu;
+}
