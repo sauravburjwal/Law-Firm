@@ -3,7 +3,7 @@ import './PracticeSection.css';
 
 const PracticeSection = () => {
   return (
-    <div className="practice-section">
+    <div className="practice-section" id="practice-areas">
       <h2>Area of Practices</h2>
       <div className="practice-section-images-container">
         <div className="image-container">

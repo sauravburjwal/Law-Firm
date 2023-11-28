@@ -1,0 +1,22 @@
+.team-section {
+  background-color: var(--css-black-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-section h2 {
+  margin: 5rem 0;
+  color: var(--css-white);
+  font-size: 54px;
+  line-height: 77px;
+}
+
+.team-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 3rem;
+  column-gap: 5rem;
+  margin-bottom: 5rem;
+}

@@ -12,6 +12,10 @@
   --css-white: #ffffff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */

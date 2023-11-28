@@ -1,0 +1,44 @@
+.team-card {
+  width: 344px;
+  height: 109px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  gap: 2rem;
+  transition: all ease-in 0.3s;
+}
+
+.team-card:hover {
+  background-color: var(--css-yellow);
+}
+
+.team-card:hover .name {
+  color: var(--css-black-secondary);
+}
+
+.team-card:hover .cases-number {
+  color: var(--css-grey-primary);
+}
+
+.name {
+  color: var(--css-white);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  cursor: context-menu;
+  transition: all ease-in 0.3s;
+}
+
+.cases-number {
+  color: var(--css-grey-secondary);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 10px;
+  cursor: context-menu;
+  transition: all ease-in 0.3s;
+}

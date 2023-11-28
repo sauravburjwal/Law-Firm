@@ -5,10 +5,24 @@
 .practice-image-card p {
   position: absolute;
   color: var(--css-white);
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 600;
   line-height: 24px;
   bottom: 2rem;
   left: 50%;
   transform: translate(-50%, 0);
+  cursor: context-menu;
+}
+
+.practice-image-card div {
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.practice-image-card img {
+  transition: all ease-in 0.3s;
+}
+
+.practice-image-card:hover img {
+  transform: scale(1.1);
 }
