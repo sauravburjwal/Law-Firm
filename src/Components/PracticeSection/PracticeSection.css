@@ -1,4 +1,4 @@
-.card-section {
+.practice-section {
   background-color: var(--css-black-secondary);
   display: flex;
   flex-direction: column;
@@ -6,14 +6,19 @@
   justify-content: center;
 }
 
-.card-section h2 {
+.practice-section h2 {
+  margin-top: 3rem;
   color: var(--css-white);
   font-size: 54px;
-  line-height: 77px;
 }
 
-.card-container {
-  margin: 5rem;
+.practice-section-images-container {
+  margin: 3rem;
   display: flex;
-  gap: 3rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+.image-container {
+  display: flex;
+  gap: 2rem;
 }
