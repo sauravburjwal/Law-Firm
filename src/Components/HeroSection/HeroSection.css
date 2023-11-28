@@ -1,0 +1,90 @@
+.hero-section {
+  height: 85vh;
+  background-color: var(--css-black-primary);
+}
+
+.hero-section-container {
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+}
+
+.hero-section-text-container {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  color: var(--css-white);
+}
+
+.hero-section-text-container h1 {
+  font-size: 66px;
+  font-weight: 500;
+  line-height: 97px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero-section-text-container h1 span {
+  font-size: 66px;
+  font-weight: 700;
+  line-height: 97px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero-section-text-container p {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.mail-section {
+  background-color: var(--css-black-secondary);
+  width: 438px;
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  border-radius: 43px;
+  position: relative;
+}
+
+.mail-icon {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.4);
+  left: 8%;
+}
+
+.mail-section input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 50px;
+  color: var(--css-white);
+}
+
+.mail-section button {
+  width: 137px;
+  height: 62px;
+  border: none;
+  background-color: var(--css-yellow);
+  font-weight: 600;
+  text-align: center;
+  border-radius: 43px;
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+}
+
+.mail-section button:hover {
+  font-size: 18px;
+}
