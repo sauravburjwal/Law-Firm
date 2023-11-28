@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter');
 
 :root {
-  --css-primary: #34c94b;
-  --css-black: #121212;
-  --css-white: #fff;
+  --css-yellow: #e3b748;
+  --css-black-primary: #111111;
+  --css-black-secondary: #1d1d1d;
+  --css-white: #ffffff;
 }
 
 /*

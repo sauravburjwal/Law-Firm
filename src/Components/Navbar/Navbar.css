@@ -1,0 +1,48 @@
+.nav {
+  background-color: var(--css-black-primary);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+.nav-btn-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.nav-btn {
+  border: none;
+  background-color: transparent;
+  color: var(--css-white);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+}
+
+.nav-btn:hover {
+  color: var(--css-yellow);
+}
+
+.contact-btn {
+  border: 2px var(--css-white) solid;
+  background-color: transparent;
+  color: var(--css-white);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: center;
+  width: 172px;
+  height: 47px;
+  cursor: pointer;
+  transition: all ease-in 0.3s;
+}
+
+.contact-btn:hover {
+  transform: scale(1.1);
+}
