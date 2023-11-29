@@ -5,6 +5,7 @@ import CardSection from './Components/CardSection/CardSection';
 import PracticeSection from './Components/PracticeSection/PracticeSection';
 import TestimonialSection from './Components/TestimonialSection/TestimonialSection';
 import TeamSection from './Components/TeamSection/TeamSection';
+import FAQsSection from './Components/FAQsSection/FAQsSection';
 import SubscriptionSection from './Components/SubscriptionSection/SubscriptionSection';
 import Footer from './Components/Footer/Footer';
 import './App.css';
@@ -19,6 +20,7 @@ function App() {
       <PracticeSection />
       <TestimonialSection />
       <TeamSection />
+      <FAQsSection />
       <SubscriptionSection />
       <Footer />
     </>

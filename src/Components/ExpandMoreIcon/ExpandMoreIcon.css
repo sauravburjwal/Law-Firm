@@ -1,0 +1,11 @@
+.expand-more-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: var(--css-yellow);
+  color: var(--css-black-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
