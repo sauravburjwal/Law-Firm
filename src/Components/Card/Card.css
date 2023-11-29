@@ -17,10 +17,19 @@
   background-color: var(--css-grey-primary);
 }
 
+.card h3 {
+  letter-spacing: 1px;
+}
+
 .card p {
   color: var(--css-grey-secondary);
   font-size: 14px;
   line-height: 23px;
+}
+
+.card-post {
+  margin-top: -10px;
+  color: var(--css-white) !important;
 }
 
 .card button {

@@ -15,11 +15,11 @@
   cursor: pointer;
 }
 
-.nav-btn a {
+.nav-btn-container a {
   text-decoration: none;
   color: var(--css-white);
   transition: all ease-in 0.3s;
 }
-.nav-btn a:hover {
+.nav-btn-container a:hover {
   color: var(--css-yellow);
 }
