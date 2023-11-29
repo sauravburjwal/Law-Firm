@@ -3,7 +3,7 @@ import './TeamSection.css';
 
 const TeamSection = () => {
   return (
-    <div className="team-section">
+    <div className="team-section" id="attorneys">
       <h2>Our Team</h2>
       <div className="team-card-container">
         <TeamCard

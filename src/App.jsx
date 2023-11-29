@@ -4,6 +4,7 @@ import AboutUs from './Components/AboutUs/AboutUs';
 import CardSection from './Components/CardSection/CardSection';
 import PracticeSection from './Components/PracticeSection/PracticeSection';
 import TeamSection from './Components/TeamSection/TeamSection';
+import SubscriptionSection from './Components/SubscriptionSection/SubscriptionSection';
 import Footer from './Components/Footer/Footer';
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
       <CardSection />
       <PracticeSection />
       <TeamSection />
+      <SubscriptionSection />
       <Footer />
     </>
   );
