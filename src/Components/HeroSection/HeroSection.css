@@ -12,7 +12,7 @@
 }
 
 .hero-section-text-container {
-  width: 30%;
+  width: 40%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -47,14 +47,21 @@
   text-align: left;
 }
 
-.mail-section {
-  background-color: var(--css-black-secondary);
-  width: 438px;
-  height: 74px;
+.mail-section div {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+}
+
+.mail-section {
+  background-color: var(--css-black-secondary);
+  min-width: 438px;
+  height: 74px;
+  display: flex;
+  align-items: center;
+  padding-right: 6px;
+  justify-content: space-between;
+  gap: 18px;
   border-radius: 43px;
   position: relative;
 }
@@ -62,7 +69,7 @@
 .mail-icon {
   position: absolute;
   color: var(--css-grey-secondary);
-  left: 8%;
+  left: 6%;
 }
 
 .mail-section input {

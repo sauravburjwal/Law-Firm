@@ -12,20 +12,24 @@ const HeroSection = () => {
           </h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipiscing elit blandit,
+            <br />
             curabitur sodales conubia ut inceptos faucibus himenaeos tortor
+            <br />
             eget, hac massa gravida arcu interdum proin curae.
           </p>
           <div>
             <form className="mail-section">
-              <div className="mail-icon">
-                <IoMdMail />
+              <div>
+                <div className="mail-icon">
+                  <IoMdMail />
+                </div>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your eamil address"
+                  required
+                />
               </div>
-              <input
-                type="email"
-                name="email"
-                placeholder="Enter your eamil address"
-                required
-              />
 
               <button type="submit" className="btn btn-primary">
                 Let’s Talk

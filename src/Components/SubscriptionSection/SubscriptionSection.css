@@ -18,7 +18,7 @@
   gap: 2rem;
 }
 
-.subscription-section div h2 {
+.subscription-container h2 {
   color: var(--css-white);
   font-size: 55px;
   font-weight: 500;
